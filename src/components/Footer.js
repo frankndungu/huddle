@@ -1,14 +1,39 @@
+import SocialIcons from "./SocialIcons";
 import { Container } from "./styles/Container.styled";
 import { Flex } from "./styles/Flex.styled";
+import { StyledFooter } from "./styles/Footer.styled";
 
-function Footer() {
+export default function Footer() {
   return (
-    <div>
+    <StyledFooter>
       <Container>
         <img src="./images/logo_white.svg" alt="logo" />
+        <Flex>
+          <ul>
+            <li>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua
+            </li>
+            <li>+254-746-884-254</li>
+            <li>francodosha@huddle.com</li>
+          </ul>
+
+          <ul>
+            <li>About Us</li>
+            <li>What We Do</li>
+            <li>FAQ</li>
+          </ul>
+
+          <ul>
+            <li>Career</li>
+            <li>Blog</li>
+            <li>Contact Us</li>
+          </ul>
+
+          <SocialIcons />
+        </Flex>
+        <p>&copy; 2021 Huddle. All rights reserved</p>
       </Container>
-    </div>
+    </StyledFooter>
   );
 }
-
-export default Footer;
