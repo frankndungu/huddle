@@ -1,6 +1,6 @@
 # Huddle Landing Page (React & Styled Components)
 
-A styled components crash course
+A styled components project from frontend mentor
 
 ## Usage
 
