@@ -8,3 +8,7 @@ A styled components project from frontend mentor
 npm install
 npm start
 ```
+## link
+```
+https://huddle-styled-components-site.netlify.app
+```
